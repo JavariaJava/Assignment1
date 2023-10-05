@@ -2,11 +2,48 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: hsla(280, 20%, 70%, 0.3);
-    font : normal normal normal  12px/1.5 Verdana, Arial, Helvetica, sans-serif;
+    background-color: rgba(173, 44, 166, 0.806);
+    font : normal normal normal  12px/1 Verdana, Arial, Helvetica, sans-serif;
     padding: 2em;
 }
 h2{
-    color: #fc0;
-    font-size : 2rem;
+    color: rgb(164, 16, 205);
+    font-size : 1.5sem;
+}
+header{
+    background-color: hsl(289, 52%, 38%);
+}
+main{
+    float: left;
+    width: 65vw;
+    height: 60vh;
+    background-color: hsl(289, 52%, 38%);
+}
+aside{
+    float: right;
+    width: 25vw;
+    height: 60vh;
+    background-color: hsl(270, 81%, 38%);
+}
+footer{
+    clear: both;
+    background-color: hsl(337, 83%, 42%);
+}
+.structural{
+    padding: 10px;
+    margin: 12px;
+    border: 2px solid black;
+
+}
+#para1{
+    color: rgb(107,7, 49);
+}
+#para2{
+    color: rgb(7, 10, 107);
+}
+a:hover{
+    color: #09c;
+}
+footer p{
+    font-size: .75em;
 }
