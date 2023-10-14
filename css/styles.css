@@ -1,0 +1,64 @@
+/* Name: Javaria Javaria ID: 8913268*/
+body {
+    width: 95vw;
+    max-width: 150vw;
+    margin: 20px;
+    font: normal normal normal  12px/1 Verdana, Arial, Helvetica, sans-serif;
+    padding: 0em;
+}
+.structural{
+    border: 2px solid yellow;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 0em;
+}
+footer{
+    font-size: 1rem;
+    color: blueviolet;
+    clear: both;
+}
+main{
+    float: left;
+    width: 65vw;
+    height: 100vh;
+    clear: both;
+    padding-left: 1em;
+}
+aside{
+    float: right;
+    width: 20vw;
+    height: 145vh;
+    clear: both;
+    padding-right: 2em;
+}
+h1{
+    color: aquamarine;
+    font-variant: small-caps;
+}
+h2{
+    color: aqua;
+    font-variant: small-caps;
+}
+.mainimg{
+    border: 4px solid black;
+}
+figcaption{
+    font-style: bold;
+    font-variant: small-caps;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: larger;
+}
+ul li{
+    list-style-type: none;
+    line-height: 2;
+}
+li>a{
+    text-decoration: none;
+    color: brown;
+}
+a:hover{
+    color: chartreuse;
+}
